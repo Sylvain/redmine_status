@@ -1,0 +1,14 @@
+ja:
+  field_option: オプション
+  redmine_status_title: 最新ステータス
+  redmine_status_update_your_status: 私のステータスを更新
+  redmine_status_developer_status: 開発者のステータス
+  redmine_status_developer_status_tagged_with: '開発者のステータス タグ: %s'
+  redmine_status_tag_cloud: タグクラウド
+  redmine_status_notification_preference: 通知設定
+  redmine_status_saved_notification_preference: %s に設定しました。
+  redmine_status_failed_to_save_notification_preference: 設定を保存できませんでした。もう一度お願いします。
+  redmine_status_new_update: 最新のステータスを送信しました。
+  redmine_status_new_update_plural: '最近更新されたステータス一覧 since'
+  redmine_status_all_status_plural: "全ステータス"
+  redmine_status_search_statuses: ステータスを検索
