@@ -4,7 +4,7 @@ class StatusWelcomeHooks < Redmine::Hook::ViewListener
 
   def view_welcome_index_left(context = {})
     html = '<div class="box" id="statuses">'
-    html += '<h3 class="icon22 icon22-users">Developer Status</h3>'
+    html += %Q|<h3 class="icon22 icon22-users">#{l(:redmine_status_developer_status)}</h3>|
 
     Status.recent_updates_for(nil, 5).each do |status|
       html += <<EOHTML

@@ -10,7 +10,7 @@ class StatusProjectHooks < Redmine::Hook::ViewListener
       if @project.module_enabled?(:statuses) && authorize_for('statuses', 'index')
 
         html = '<div class="box" id="statuses">'
-        html += '<h3 class="icon22 icon22-users">Developer Status</h3>'
+        html += %Q|<h3 class="icon22 icon22-users">#{l(:redmine_status_developer_status)}</h3>|
 
         Status.recent_updates_for(@project, 5).each do |status|
           html += <<EOHTML
