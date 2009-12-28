@@ -12,3 +12,4 @@ ja:
   redmine_status_new_update_plural: '最近更新されたステータス一覧 since'
   redmine_status_all_status_plural: "全ステータス"
   redmine_status_search_statuses: ステータスを検索
+  redmine_status_view_all_statuses: ステータスを全て表示

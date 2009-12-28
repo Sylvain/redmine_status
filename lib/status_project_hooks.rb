@@ -26,7 +26,7 @@ class StatusProjectHooks < Redmine::Hook::ViewListener
             <div style="clear:both;"></div>
 EOHTML
         end
-        html += link_to("View all statuses", :controller => 'statuses', :action => 'index', :id => @project)
+        html += link_to(l(:redmine_status_view_all_statuses), :controller => 'statuses', :action => 'index', :id => @project)
         html += '</div>'
 
         return html
